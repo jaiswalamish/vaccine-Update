@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:padding="5dp"
+    android:background="#97C3C5">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_hospital"
+            android:drawablePadding="10dp"
+            android:text="Bakhri"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:id="@+id/storename"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableStart="@drawable/ic_location"
+            android:drawablePadding="10dp"
+            android:text="block"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_search"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp"
+            android:padding="5dp"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/mapsearch"></ImageView>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_slot"
+        android:drawablePadding="10dp"
+        android:text="9:00AM to 6:00PM"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:id="@+id/slot"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_storename"
+            android:drawablePadding="10dp"
+            android:text="vaccine name"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:id="@+id/vaccinename"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="free"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#EF1C1C"
+            android:paddingEnd="10dp"
+            android:id="@+id/feetype"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16sp"
+            android:paddingStart="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:id="@+id/agelimit"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="Availability"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#EF1C1C"
+            android:paddingEnd="10dp"
+            android:id="@+id/availability"/>
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>
